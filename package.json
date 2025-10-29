@@ -1,9 +1,8 @@
 {
   "name": "protego",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Protego is a lightweight JavaScript utility that protects your async code from crashes.",
   "main": "index.js",
-  "type": "module",
   "keywords": ["async", "error", "safe", "wrapper", "trycatch", "nodejs", "javascript"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
