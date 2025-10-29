@@ -1,4 +1,4 @@
-export const protego = async (fn) => {
+const protego = async (fn) => {
   try {
     const result = typeof fn === "function" ? fn() : fn;
     const awaited = result instanceof Promise ? await result : result;
@@ -7,3 +7,5 @@ export const protego = async (fn) => {
     return [null, error];
   }
 };
+
+module.exports = protego;

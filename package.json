@@ -1,6 +1,6 @@
 {
   "name": "protego",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Protego is a lightweight JavaScript utility that protects your async code from crashes.",
   "main": "index.js",
   "keywords": ["async", "error", "safe", "wrapper", "trycatch", "nodejs", "javascript"],
